@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
   s.platform = :ios
   s.ios.deployment_target = '14.0'
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   s.homepage = "https://github.com/dimspawn/Dimas-Dicoding-Core"
 
 
-  s.source = { :git => "https://github.com/gotamafandy/Dimas-Dicoding-Core.git", 
+  s.source = { :git => "https://github.com/dimspawn/Dimas-Dicoding-Core.git", 
   :tag => "#{s.version}" }
    
   s.framework = "UIKit"
